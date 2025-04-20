@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Resume Parser Web App
 
-## Getting Started
+A modern web application that automatically extracts and analyzes data from uploaded resumes using LLM technology.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Resume Upload & Parsing**: Seamlessly upload and extract data from resumés
+- **PDF Preview**: View uploaded PDFs directly in the application
+- **Dark Mode Support**: Toggle between light and dark themes
+- **Mobile-Responsive Design**: Optimized for all screen sizes
+- **LLM-Powered Analysis**: Leverages Groq API for intelligent data extraction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js (React)
+- **Backend**: FastAPI (Python)
+- **LLM Integration**: Groq API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Screenshots
+![Screenshot 2025-04-21 010531](https://github.com/user-attachments/assets/84a1bc96-40ff-466f-8504-69f48fff6728)
 
-## Learn More
+![Screenshot 2025-04-21 010544](https://github.com/user-attachments/assets/290dcb2b-5850-4b6a-bbcb-390943e62dcb)
 
-To learn more about Next.js, take a look at the following resources:
+# Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js (v16 or later)
+- Python (v3.8 or later)
+- npm or yarn
 
-## Deploy on Vercel
+### Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Frontend Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```
+   git clone https://github.com/username/resume-parser.git
+   cd resume-parser
+   ```
+
+2. Install frontend dependencies:
+   ```
+   cd frontend
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+
+#### Backend Setup
+
+1. Navigate to the backend directory:
+   ```
+   cd backend
+   ```
+
+2. Install Python dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Start the backend server:
+   ```
+   uvicorn main:app --reload
+   ```
+
+### Usage
+
+1. Open your browser and navigate to `http://localhost:3000`
+2. Upload a resume file (PDF format recommended)
+3. View the parsed data and analysis
+
+## Important Note
+
+**This repository currently contains an API key for demonstration purposes. This key will be removed after review. Do not use this key for production deployments.**
+
+## Troubleshooting
+
+If you encounter any issues during setup or usage, please contact:
+
+Aaradhya Pathak  
+Email: aaradhyapathakofficial@gmail.com
+
