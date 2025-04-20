@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+PyPDF2
+groq
+requests
+pandas
+json-repair
+python-dotenv
